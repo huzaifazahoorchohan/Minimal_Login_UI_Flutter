@@ -51,7 +51,7 @@ class PasswordChangedScreen extends StatelessWidget {
                     Navigator.popUntil(
                       context,
                       (route) {
-                        return count++ == 3;
+                        return count++ == 4;
                       },
                     );
                   },

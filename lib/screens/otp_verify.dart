@@ -2,7 +2,7 @@ import "package:flutter/material.dart";
 import 'package:pin_code_fields/pin_code_fields.dart';
 import 'package:simple_login_ui/components/custom_button.dart';
 import 'package:simple_login_ui/constants.dart';
-import 'package:simple_login_ui/screens/password_changed.dart';
+import 'package:simple_login_ui/screens/new_password.dart';
 
 class OtpVerification extends StatelessWidget {
   const OtpVerification({Key? key}) : super(key: key);
@@ -81,7 +81,7 @@ class OtpVerification extends StatelessWidget {
                 CustomButton(
                   title: "Verify",
                   onpress: () {
-                    Navigator.pushNamed(context, PasswordChangedScreen.id);
+                    Navigator.pushNamed(context, NewPasswordScreen.id);
                   },
                 ),
               ],
