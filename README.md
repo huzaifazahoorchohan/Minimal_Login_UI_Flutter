@@ -1,2 +1,2 @@
-# Simple_Login_UI_Flutter
+# Minimal & Beautiful Login UI using Flutter
  
